@@ -496,4 +496,5 @@ public class Laba1
             Console.WriteLine($"{x} не найден в массиве.");
         }
     }
+
 }
