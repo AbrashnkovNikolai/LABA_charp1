@@ -67,6 +67,9 @@ public class UserInput
         {
             Console.Write(prompt);
             string input = Console.ReadLine();
+            if (input.Contains('.')){
+                input = input.Replace('.', ',');
+            }
             // Проверка на вещественное число
             if (float.TryParse(input, out result))
             {
